@@ -1,5 +1,6 @@
 header .image-button {
     width: 30px;
+    transition: 0.2s ease-in-out;
 }
 
 header .image-button:hover {

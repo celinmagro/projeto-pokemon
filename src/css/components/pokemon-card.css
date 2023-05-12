@@ -1,3 +1,24 @@
 .pokemon-card {
-    
+    display: flex;
+    background-color: #d8e3ec;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+    background-color: #96e9e6;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.dark-mode .pokemon-card {
+    background-color: #a8a8a8;
+}
+
+.dark-mode .pokemon-card:hover {
+    background-color: #96e9e6;
 }
