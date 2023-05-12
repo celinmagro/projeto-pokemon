@@ -1,3 +1,7 @@
 header .main-logo {
     width: 30px;
 }
+
+header .main-logo:hover {
+    transform: scale(1.08);
+}

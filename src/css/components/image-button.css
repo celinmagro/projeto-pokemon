@@ -1,3 +1,13 @@
 header .image-button {
     width: 30px;
 }
+
+header .image-button:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+header #change-theme {
+    background: none;
+    border: none;
+}
